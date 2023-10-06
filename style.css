@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top right, #6269ed, #2dbddf);
+    height: 100vh;
+}
+
+.header{
+    color: white;
+    margin-left: 20px;
+}
+
+.item {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    margin-left: 500px;
+    font-size: small;
+}
+
+.navbar li {
+    margin: 0 30px;
+    list-style: none;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.started{
+    background-color: #2dbddf;
+    color: white;
+    border: 10px solid #2dbddf white;
+}
